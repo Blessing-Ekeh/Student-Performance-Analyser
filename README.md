@@ -2,6 +2,11 @@
 
 ### A Multi-Agent Generative AI System powered by Azure OpenAI
 
+
+https://github.com/user-attachments/assets/50cdabaa-917e-4093-a9b3-510e6ae4e2a8
+
+
+
 ## 📌 Project Overview
 
 This project is a multi-agent AI system that analyses student academic performance data to uncover patterns, identify at-risk students, and generate actionable academic insights.
