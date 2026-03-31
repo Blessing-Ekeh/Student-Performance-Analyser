@@ -1,0 +1,131 @@
+{
+  "title": "Student Academic Performance Analysis and Strategy",
+  "dataset": {
+    "rows": 649,
+    "columns_count": 32
+  },
+  "headline_stats": {
+    "mean_grade": 9.72,
+    "fail_rate_pct": 14.3
+  },
+  "top_risk_factors": [
+    {
+      "feature": "Fjob=at_home",
+      "risk_lift": 0.233
+    },
+    {
+      "feature": "higher=no",
+      "risk_lift": 0.16
+    },
+    {
+      "feature": "reason=home",
+      "risk_lift": 0.105
+    },
+    {
+      "feature": "activities=no",
+      "risk_lift": 0.077
+    },
+    {
+      "feature": "Mjob=at_home",
+      "risk_lift": 0.068
+    },
+    {
+      "feature": "paid=no",
+      "risk_lift": 0.057
+    }
+  ],
+  "grade_by_sex": [
+    {
+      "sex": "F",
+      "avg_grade": 9.87
+    },
+    {
+      "sex": "M",
+      "avg_grade": 9.57
+    }
+  ],
+  "grade_by_address": [
+    {
+      "address": "R",
+      "avg_grade": 9.37
+    },
+    {
+      "address": "U",
+      "avg_grade": 9.84
+    }
+  ],
+  "parental_influence": {
+    "by_Mjob": [
+      {
+        "Mjob": "at_home",
+        "avg_grade": 9.49
+      },
+      {
+        "Mjob": "health",
+        "avg_grade": 9.65
+      },
+      {
+        "Mjob": "other",
+        "avg_grade": 9.66
+      },
+      {
+        "Mjob": "services",
+        "avg_grade": 10.37
+      },
+      {
+        "Mjob": "teacher",
+        "avg_grade": 9.36
+      }
+    ],
+    "by_Fjob": [
+      {
+        "Fjob": "at_home",
+        "avg_grade": 8.5
+      },
+      {
+        "Fjob": "health",
+        "avg_grade": 10.06
+      },
+      {
+        "Fjob": "other",
+        "avg_grade": 10.37
+      },
+      {
+        "Fjob": "services",
+        "avg_grade": 9.79
+      },
+      {
+        "Fjob": "teacher",
+        "avg_grade": 10.0
+      }
+    ]
+  },
+  "interventions": [
+    {
+      "priority": "high",
+      "action": "Provide targeted academic support programs for students whose parents have 'at_home' occupations.",
+      "rationale": "Students with 'Mjob=at_home' and 'Fjob=at_home' show significantly lower average grades (9.49 and 8.5, respectively), indicating a need for enhanced educational involvement."
+    },
+    {
+      "priority": "high",
+      "action": "Introduce awareness initiatives and resources promoting higher education among families.",
+      "rationale": "The 'higher=no' feature is the second-highest risk predictor, increasing the likelihood of student failure by 16%. Families may need better encouragement about the value of continuing education."
+    },
+    {
+      "priority": "medium",
+      "action": "Expand extracurricular activities and engagement in schools, especially for students with 'activities=no'.",
+      "rationale": "Participation in activities correlates to slightly better outcomes, as 'activities=no' has a risk lift of 7.7%. Supporting broader student engagement could help mitigate failures."
+    },
+    {
+      "priority": "medium",
+      "action": "Develop specific educational outreach programs targeting rural families.",
+      "rationale": "Urban students outperform rural students, with a grade difference of 0.47 points. Targeted support for rural areas could help close this gap."
+    },
+    {
+      "priority": "low",
+      "action": "Enhance parental engagement and workshops for families in 'other' or 'services' job categories.",
+      "rationale": "Parents in 'other' (avg_grade 10.37) and 'services' (avg_grade 10.37) categories show better educational outcomes, yet can benefit from soft skill or mentorship focus to further bolster student success."
+    }
+  ],
+  "executive_summary": "This analysis highlights key risk factors affecting student performance, including parental jobs, education access, and lack of extracurricular engagement. Strategic interventions targeting high-risk groups can improve academic outcomes and address educational gaps effectively."
+}
