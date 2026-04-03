@@ -85,16 +85,6 @@ The system produces:
 
 ### 4. Structured Report
 
-## ⚠️ Data Limitations
-
-Some analyses returned *"No risk factor data"*, indicating:
-
-* Missing or incomplete features in the dataset
-* Need for improved feature engineering
-* Real-world data quality challenges
-
----
-
 ## 📁 Project Structure
 
 ```
